@@ -16,7 +16,7 @@ return {
     ["<leader>lm"] = { ":Mason <cr> ", desc = "lsp Installer" },
     ["<leader>fr"] = { ":Telescope oldfiles <cr> ", desc = "Recent files" },
 
-    -- mappings seen under group name "Buffer"
+   -- mappings seen under group name "Buffer"
     ["<leader>bD"] = {
       function()
         require("astronvim.utils.status").heirline.buffer_picker(
@@ -29,3 +29,4 @@ return {
   },
   t = {},
 }
+
